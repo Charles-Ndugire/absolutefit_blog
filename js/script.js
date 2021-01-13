@@ -1,3 +1,20 @@
+var videoPlayer = document.getElementById('videoPlayer');
+
+// Auto play, half volume.
+videoPlayer.play()
+videoPlayer.volume = 0.5;
+
+// Play / pause.
+videoPlayer.addEventListener('click', function () {
+    if (videoPlayer.paused == false) {
+        videoPlayer.pause();
+        videoPlayer.firstChild.nodeValue = 'Play';
+    } else {
+        videoPlayer.play();
+        videoPlayer.firstChild.nodeValue = 'Pause';
+    }
+});
+=======
 $(document).ready(function(){
   $("#development-image").click(function(){
     $("#development-image").slideDown('1500').hide('1000');
@@ -102,3 +119,12 @@ $(document).ready(function(){
   });
 
 });
+
+function showContent() {
+  $(".readmore-btn").on("click",function () {
+    $(this).parent().toggleClass("showContent");
+
+    var replaceText = $(this).parent().hasClass("showContent") ? "Read Less" : "Read More";
+    $(this).text(replaceText);
+  });
+}
