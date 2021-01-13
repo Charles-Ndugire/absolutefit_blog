@@ -127,4 +127,4 @@ function showContent() {
     var replaceText = $(this).parent().hasClass("showContent") ? "Read Less" : "Read More";
     $(this).text(replaceText);
   });
-}
+};
