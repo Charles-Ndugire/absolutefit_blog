@@ -1,3 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box{
+  width: 30%;
+  float: left;
+  margin:50px 20px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+}
+
+.box img{
+  width:100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.box span{
+  font-family: monospace;
+  float: right;
+  font-size: 12px;
+}
+
+.box p{
+  font-size: 15px;
+  line-height: 28px;
+  height: 90px;
+  overflow: hidden;
+}
+
+.box.showContent p{
+  height: auto;
+}
+
+.box.showContent a.readmore-btn{
+  background-color:red;
+}
 
 /* .vid-header{
     background-image: url(/img/img-header-blog.jpg);
@@ -39,9 +81,9 @@ img:hover{
 .hover:hover {
     opacity: 0.2;
   }
-  
+
   .item-fade {
-    
+
     opacity: 0.8;
     transition: opacity .25s ease-in-out;
     -moz-transition: opacity .25s ease-in-out;
@@ -51,7 +93,7 @@ img:hover{
     display:flex;
     flex-direction: column;
     background: /* Your Color or image */;
-    min-height: 100vh; 
+    min-height: 100vh;
    }
    p, h1 , h2 , h3 , h4 , h5 {
      color: teal;
