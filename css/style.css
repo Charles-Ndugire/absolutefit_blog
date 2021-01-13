@@ -41,14 +41,8 @@
   background-color:red;
 }
 
-/* .vid-header{
-    background-image: url(/img/img-header-blog.jpg);
-    width: auto;
-    height: 300px;
-    margin: 0px;
-} */
 .vid-header{
-    background-image: url(/img/img-header-blog.jpg);
+    background-image: url("../img/img-header-blog.jpg");
     width: auto;
     height: 300px;
     margin: 0px;
