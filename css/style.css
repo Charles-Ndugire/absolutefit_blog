@@ -147,6 +147,10 @@ img:hover{
   float: left;
   margin-right: 20px;
   border-radius: 50%;
+  
+}
+#testimonials p :hover {
+  background-color: teal;
 }
 
 /* Increase the font-size of a span element */
@@ -319,6 +323,7 @@ footer p{
 #card-container2 {
   padding: 2px 16px;
   background-color: gainsboro;
+  width: 100%;
 }
 #card-container3 {
   padding: 2px 16px;
@@ -352,6 +357,9 @@ div.content {
   padding: 1px 16px;
   height: 200%;
   width: 100%;
+}
+#header { color:teal;
+text-align: center;
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
