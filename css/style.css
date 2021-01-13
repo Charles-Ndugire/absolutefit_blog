@@ -1,3 +1,63 @@
+body :hover {
+    background-color: rgb(199, 216, 228);
+
+}
+#form2 {
+    background-color: rgb(62, 78, 92);
+    padding-top: 110px;
+    padding-bottom: 110px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding-bottom: 50px;
+
+}
+h2 :hover{
+    background-color: rgb(99, 121, 141);
+}
+.col-sm-6{
+    padding-top: 30px;
+    text-align: center;
+}
+.card-group{
+    text-align: center;
+}
+.form-group{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#formm {
+    padding-left: 470px;
+}
+#fit{
+    font-weight: bold;
+    font-size: 25px;
+}
+#hover00 :hover{
+    font-weight: bold;
+}
+#top {
+    float: right;
+    padding-right: 40px;
+}
+#mmm {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+#w {
+    padding-bottom: 10px;
+}
+.card-group :hover {
+    background-color: rgb(199, 216, 228);
+}
+#gender {
+    color: rgb(133, 150, 165);
+}
 @import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');
 html {
   scroll-behavior: smooth;
