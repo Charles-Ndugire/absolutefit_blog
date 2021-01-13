@@ -89,9 +89,6 @@ img:hover{
     background: /* Your Color or image */;
     min-height: 100vh;
    }
-   p, h1 , h2 , h3 , h4 , h5 {
-     color: teal;
-   }
 
 .topnav {
   background-color: #333;
