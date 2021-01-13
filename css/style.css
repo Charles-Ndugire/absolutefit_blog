@@ -1,3 +1,62 @@
+
+/* .vid-header{
+    background-image: url(/img/img-header-blog.jpg);
+    width: auto;
+    height: 300px;
+    margin: 0px;
+} */
+.vid-header{
+    background-image: url(/img/img-header-blog.jpg);
+    width: auto;
+    height: 300px;
+    margin: 0px;
+}
+#video {
+  float:right;
+    z-index:0;
+    margin-left: 150px;
+}
+.overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+.text p{
+  justify-content: center;
+  margin-left: 180px;
+  font-style: italic;
+  font-weight: 100px;
+}
+.text h2{
+   justify-content: center;
+  margin-left: 100px;
+  text-decoration: underline;
+}
+img:hover{
+    transition: width .35s ease-in-out;
+}
+.hover:hover {
+    opacity: 0.2;
+  }
+  
+  .item-fade {
+    
+    opacity: 0.8;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+  }
+  .main {
+    display:flex;
+    flex-direction: column;
+    background: /* Your Color or image */;
+    min-height: 100vh; 
+   }
+   p, h1 , h2 , h3 , h4 , h5 {
+     color: teal;
+   }
+=======
 .topnav {
   background-color: #333;
   overflow: hidden;
