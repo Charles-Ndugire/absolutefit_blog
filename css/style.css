@@ -372,3 +372,12 @@ div.content {
     float: none;
   }
 }
+
+.main-footer{
+  margin-bottom: 0;
+  padding: 0px;
+}
+
+.social-links a{
+  display: inline;
+}
