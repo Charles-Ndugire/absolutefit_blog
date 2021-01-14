@@ -87,7 +87,7 @@ img:hover{
     display:flex;
     flex-direction: column;
     background: /* Your Color or image */;
-    min-height: 90vh;
+    min-height: 80vh;
    }
 
    .jumbotron img{
@@ -176,17 +176,7 @@ img:hover{
     padding-bottom: 110px;
     text-align: center;
 }
-h2 {
-    text-align: center;
-    padding-top: 50px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    padding-bottom: 50px;
 
-}
-h2 :hover{
-    background-color: rgb(99, 121, 141);
-}
 .col-sm-6{
     padding-top: 30px;
     text-align: center;
@@ -261,9 +251,7 @@ input[type=text],input[type=email],#comment{
   font-family: 'Quicksand', serif;
 }
 
-.form-control::-webkit-input-placeholder {
-  color: snow ;
-}
+
 #MERGE1{
   width: 30%;
   margin-left: 18%;
