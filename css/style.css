@@ -83,11 +83,15 @@ img:hover{
     -moz-transition: opacity .25s ease-in-out;
     -webkit-transition: opacity .25s ease-in-out;
   }
-  .main {
+  .jumbotron {
     display:flex;
     flex-direction: column;
     background: /* Your Color or image */;
-    min-height: 100vh;
+    min-height: 90vh;
+   }
+
+   .jumbotron img{
+     width: 100%;
    }
 
 .topnav {
@@ -107,7 +111,6 @@ img:hover{
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
   color:tan;
 }
 
@@ -130,7 +133,6 @@ img:hover{
 
 .container {
   border: 2px solid #ccc;
-
   padding: 16px;
   margin: 16px 0;
 }
@@ -142,23 +144,10 @@ img:hover{
   display: table;
 }
 
-/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
-  #testimonials .container img {
-  float: left;
-  margin-right: 20px;
-  border-radius: 50%;
-  
+.testimonies img{
+  width: 150x;
+  height: 150px;
 }
-#testimonials p :hover {
-  background-color: teal;
-}
-
-/* Increase the font-size of a span element */
-.container span {
-  font-size: 20px;
-  margin-right: 15px;
-}
-
 /* Add media queries for responsiveness. This will center both the text and the image inside the container */
 @media (max-width: 500px) {
   .container {
@@ -181,10 +170,6 @@ img:hover{
   text-align: center;
 }
 
-body :hover {
-    background-color: rgb(199, 216, 228);
-
-}
 #form2 {
     background-color: rgb(62, 78, 92);
     padding-top: 110px;
