@@ -147,6 +147,10 @@ img:hover{
   float: left;
   margin-right: 20px;
   border-radius: 50%;
+  
+}
+#testimonials p :hover {
+  background-color: teal;
 }
 
 /* Increase the font-size of a span element */
@@ -252,7 +256,7 @@ body {
 
 
 .contact{
-  background-image: url('img/background.jpg');
+  background-image: url('../img/gym3.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -319,6 +323,7 @@ footer p{
 #card-container2 {
   padding: 2px 16px;
   background-color: gainsboro;
+  width: 100%;
 }
 #card-container3 {
   padding: 2px 16px;
@@ -353,6 +358,9 @@ div.content {
   height: 200%;
   width: 100%;
 }
+#header { color:teal;
+text-align: center;
+}
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 700px) {
@@ -380,4 +388,6 @@ div.content {
 
 .social-links a{
   display: inline;
+#gender {
+   text-align: center;
 }
