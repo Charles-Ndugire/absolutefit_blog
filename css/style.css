@@ -87,7 +87,7 @@ img:hover{
     display:flex;
     flex-direction: column;
     background: /* Your Color or image */;
-    min-height: 90vh;
+    min-height: 80vh;
    }
 
    .jumbotron img{
