@@ -127,3 +127,20 @@ function showContent() {
     $(this).text(replaceText);
   });
 };
+
+
+$(document).ready(function(){
+  $("form#form2").submit(function(event){
+    let name = $("input#yourname").val();
+    let email = $("input#youremail").val();
+    let message = $("textarea#comment").val();
+    event.preventDefault();
+    if ($("input#yourname").val() && $("input#youremail").val()){
+     alert (name + ", we have received your message. Thank you for contacting us.");
+   }
+   else{
+     alert("Please provide your name and email");
+   }
+  });
+ });
+ 
