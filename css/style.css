@@ -372,3 +372,6 @@ div.content {
     float: none;
   }
 }
+#gender {
+   text-align: center;
+}
