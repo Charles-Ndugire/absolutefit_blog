@@ -127,3 +127,4 @@ function showContent() {
     $(this).text(replaceText);
   });
 };
+
