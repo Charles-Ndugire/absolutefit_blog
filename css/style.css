@@ -86,7 +86,6 @@ img:hover{
   .jumbotron {
     display:flex;
     flex-direction: column;
-    background: /* Your Color or image */;
     min-height: 80vh;
    }
 
@@ -132,9 +131,7 @@ img:hover{
 }
 
 .container {
-  border: 2px solid #ccc;
-  padding: 16px;
-  margin: 16px 0;
+  min-height: 80vh;
 }
 
 /* Clear floats after containers */
