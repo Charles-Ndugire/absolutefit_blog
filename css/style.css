@@ -58,16 +58,9 @@
     left:0;
     z-index:1;
 }
-.text p{
-  justify-content: center;
-  margin-left: 180px;
-  font-style: italic;
-  font-weight: 100px;
-}
 .text h2{
    justify-content: center;
   margin-left: 100px;
-  text-decoration: underline;
 }
 img:hover{
     transition: width .35s ease-in-out;
@@ -347,4 +340,9 @@ text-align: center;
   display: inline-block;
   margin: auto;
   border-radius: 1em;
+}
+
+p{
+  font-size: 15px;
+  line-height: 28px;
 }
