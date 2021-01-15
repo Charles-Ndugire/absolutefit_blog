@@ -104,19 +104,15 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $("form#form1").submit(function(event){
-    var name = $("input#MERGE1").val();
-    var email = $("input#MERGE0").val();
-    var message = $("textarea#comment").val();
-    if ($("input#MERGE1").val() && $("input#MERGE0").val()){
-      alert ("Hello " + name + ", we have received your message. Thank you for contacting us.");
+  $("#form1").submit(function(event){
+    var name = $("info_name").value;
+    var email = $("info_email").value;
+    var message = $("info_message").value;
     }
-    else {
-      alert("Oops! Please enter your Name and Email!");
-    }
-
-  });
-
+    document.querySelector('form').onsubmit = function () {
+   const name = document.querySelector('#info_name').value;
+   alert(`Hello, $ {name} we have received your message. Thank you for reaching out to us.`)
+  };
 });
 
 function showContent() {
