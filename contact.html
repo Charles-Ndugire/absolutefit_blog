@@ -21,27 +21,41 @@
     </div>
     <div>
 
-    <h2 class="text-center">CONTACT US</h2><br>
-    <form id="form1" action="" method="POST">
-      <input type="hidden" name="u" value="e71bed4d6ae5a7c984dfe28b0">
-      <input type="hidden" name="id" value="dbf7e27685">
-      <div class="form-group form-inline">
-        <input type="text" class="form-control" placeholder = "Name..." name="MERGE1" id="MERGE1" size="25" value="">
-        <input type="email" class="form-control"  placeholder = "Email..." autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="">
-      </div>
-        <div class="form-group">
-          <textarea class="form-control" rows="4" id="comment" placeholder = "Leave your message here..."></textarea>
-          <div class="newsletter-checkbox-cont">
-            <span class="newsletter-checkbox">
-              <input type="checkbox" name="newsletter" value="">
-              <p class="newsletter-checkbox ">
-                Send me Monthly Newsletters.
-              </p>
-            </span>
+      <h2>Contact Us</h2>
+      <form id="form1" name="myForm" action="index.html" method="post">
+      <div class="row" id="contact-info-input">
+        <div class="col-6">
+          <div class="form-group">
+            <label for="info_name"></label>
+            <input type="text" class="required form-control" name="info_name" id="info_name" placeholder="Name">
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button><br>
         </div>
-      </form>
+        <div class="col-6">
+          <div class="form-group">
+            <label for="info_email"></label>
+            <input type="text" class="required form-control" name="info_email" id="info_email" placeholder="Email">
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-group">
+            <label for="info_message"></label>
+            <textarea type="text" class="required form-control" name="info_message" id="info_message" cols="6" rows="3" placeholder="Message here..."></textarea>
+          </div>
+        </div>
+        <div class="newsletter-checkbox-cont">
+          <span class="newsletter-checkbox">
+            <input type="checkbox" name="newsletter" value="">
+            <p class="newsletter-checkbox ">
+              Send me Monthly Newsletters.
+            </p>
+          </span>
+        </div>
+      </div>
+      <br>
+      <div class="submit">
+        <input id="submit" type="submit" class="btn btn-primary">
+      </div>
+    </form>
 
       <div class="row">
         <div class="col-md-4 text-center">
