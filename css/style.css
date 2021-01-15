@@ -115,7 +115,6 @@ img:hover{
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: teal;
   color: white;
 }
 
@@ -156,15 +155,6 @@ img:hover{
     float: none;
     display: block;
   }
-}
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
 }
 
 #form2 {
@@ -266,14 +256,6 @@ button{
   padding-bottom: 30px;
   margin-bottom: 20px;
 }
-footer{
-  text-align: center;
-  padding-top: 40px;
-  font-family: 'Cormorant Garamond', cursive;
-}
-footer p{
-  margin-top: 10px;
-}
 
 
 /* The side navigation menu */
@@ -328,7 +310,7 @@ div.content {
   height: 200%;
   width: 100%;
 }
-#header { color:teal;
+#header {
 text-align: center;
 }
 
@@ -350,14 +332,19 @@ text-align: center;
     float: none;
   }
 }
-
-.main-footer{
-  margin-bottom: 0;
-  padding: 0px;
-}
-
-.social-links a{
-  display: inline;
 #gender {
    text-align: center;
+}
+
+.social-icons{
+  margin:auto;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.social-icons a{
+  text-decoration: none;
+  display: inline-block;
+  margin: auto;
+  border-radius: 1em;
 }
